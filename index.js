@@ -4,6 +4,7 @@ const { MongoClient, ObjectId } = require('mongodb');
 (async() => {
 
     const url = 'mongodb://localhost:27017';
+    const url = 'mongodb+srv://adadad:wpwpwpwpwpwp@addressaddressaddress/colictioncollectioncollection?retryWrites=true&w=majority'
 
 
     //const dbName = 'ocean_bancodedados_11_05_2021';
