@@ -3,11 +3,12 @@ const { MongoClient, ObjectId } = require('mongodb');
 
 (async() => {
 
-    //const url = 'mongodb://localhost:27017';
-    const url = 'mongodb+srv://admin:JNolEdsOSA3QMPEk@cluster0.wvzu2.mongodb.net/ocean_db?retryWrites=true&w=majority'
+    const url = 'mongodb://localhost:27017';
+
 
     //const dbName = 'ocean_bancodedados_11_05_2021';
     const dbName = 'ocean_db';
+    // Para que o DataBase - "ocean_db" esteja disponível na núvel devemos fazer um POST!
 
     console.info('Conectando ao banco de dados...');
 
